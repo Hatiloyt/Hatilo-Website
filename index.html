@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hatilo Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="bilder/Hatilo logo.png">
+</head>
+<body>
+    <header>Hatilo Website</header>
+
+    <div class="tabs">
+        <button class="tab-button" onclick="openTab(event, 'Links')">Links</button>
+        <button class="tab-button" onclick="openTab(event, 'Home')">Home</button>
+        <button class="tab-button" onclick="openTab(event, 'About me')">About me</button>
+        <button class="tab-button" onclick="openTab(event, 'Clips')">Clips</button>
+    </div>
+
+    <div id="Home" class="tab-content">
+        <h2>Home</h2>
+        <p>Hallo, wilkommen auf meiner Website!</p>
+        <p>Hier findest du alle information über mich,</p>
+        <p>meine videos, social und mehr also schau immer mal</p>
+        <p>vorbei ;)</p>
+    </div>
+
+    <div id="Links" class="tab-content">
+        <h2>Links</h2>
+        <p>Hier findest alle Links zu meinen Socials,</p>
+        <p>aber auch links zu Website von meinen freunden wie <span style="color: gold;">Lkatze22</span>.</p>
+        <p>Du findest hier aber auch den Link zu meiner Community YouNeedYouBecome</p>
+
+        <a href="https://www.youtube.com/@hatilo658" target="_blank">
+            <img src="bilder/youtube.png" alt="Mein youtube"/>
+        </a>
+
+        <a href="https://www.twitch.tv/hatilo_" target="_blank">
+            <img src="bilder/Twitch.png" alt="Mein Twitch"/>
+        </a>
+
+        <a href="https://discord.gg/py7Wvvxg33" target="_blank">
+            <img src="bilder/discord.png" alt="Mein discord"/>
+        </a>
+
+        <a href="https://hatiloyt.github.io/YNYB-homepage/" target="_blank">
+            <img src="bilder/YNYB Logo.png" alt="Meine Community"/>
+        </a>
+
+    </div>
+
+    <div id="About me" class="tab-content">
+        <h2>About me</h2>
+        <p>Hey, ich bin <span style="color: blue;">Hatilo</span>!</p>
+        <p>Ich streame auf Twitch und lade Videos auf YouTube hoch.</p>
+        <p>Meine Lieblingsspiele sind Minecraft und Fortnite.</p>
+        <p>Ich liebe es, mit meiner Community zu zocken und gemeinsam Spaß zu haben.</p>
+        <p>Schaut doch mal vorbei und unterstütze mich.</p>
+    </div>
+
+    <div id="Clips" class="tab-content">
+        <h3>Clips 📹</h3>
+
+        <a href="https://www.twitch.tv/hatilo_/clip/AgreeableCaringCamelFunRun-AhcgaLOKqEYF-ged" target="_blank">
+            <h2>Parmesano🧀</h2>
+
+            <video width="640" height="360" controls>
+                <source src="clips/parmesano.mp4" type="video/mp4">
+            </video>
+        </a>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
