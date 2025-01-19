@@ -1,0 +1,85 @@
+header {
+  font-size: 20px;
+  background-color: #2d2d2d;
+  color: white;
+  padding: 30px 40px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 2px 0;
+}
+.tab-button {
+    background-color: #2b2b2b;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    width: 80px;
+    text-align: center;
+    margin-right: px1;
+}
+
+.tab-button:hover {;
+    background-color: #3d3d3d;
+    transform: scale(1.1);
+
+}
+
+.tab-button.active {
+    background-color: #242323;
+    font-weight: bold;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+
+img {
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+   margin: 10px 0;
+}
+
+a img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+a:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#Home h2 {
+  font-size: 36px;
+}
+
+#Home p {
+  font-size: 18px;
+}
+
+h3 {
+font-size: 36px;
+}
+
+video {
+  background: #c2c2c2;
+  padding: 8px 10px;
+}
